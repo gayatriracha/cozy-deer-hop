@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import TimerDisplay from '../components/TimerDisplay';
 import TimerControls from '../components/TimerControls';
 
-const FOCUS_TIME = 25 * 60; // 25 minutes in seconds
+const FOCUS_TIME = 2 * 60 * 60; // 2 hours in seconds
 const SHORT_BREAK_TIME = 5 * 60; // 5 minutes in seconds
 const LONG_BREAK_TIME = 15 * 60; // 15 minutes in seconds
 const CYCLES_BEFORE_LONG_BREAK = 4;
